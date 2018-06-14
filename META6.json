@@ -1,0 +1,19 @@
+{
+  "perl"        : "6.*",
+  "name"        : "Sparrowdo::VSTS::YAML::Artifact",
+  "version"     : "*",
+  "description" : "Sparrowdo module to generate VSTS yaml steps to publish artifacts",
+  "authors" : [ "Alexey Melezhik"],
+  "depends"     : [
+                    "Sparrowdo"
+                  ],
+  "source-type" : "git",
+  "support" : {
+    },
+   "provides" : {
+        "Sparrowdo::VSTS::YAML::Artifact" : "lib/Sparrowdo/VSTS/YAML/Artifact.pm6"
+  },
+  "resources" : [
+    "build.yaml"
+  ]
+}
